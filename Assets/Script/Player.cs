@@ -59,8 +59,7 @@ public class Player : MonoBehaviour
 
     void onLevelPass(){
         Debug.Log("Level pass!");
-        movementDisable = true;
-        rb.velocity = Vector2.zero;
+        
         //load next level;
         // or display option
         //Scene scene = SceneManager.GetActiveScene();
