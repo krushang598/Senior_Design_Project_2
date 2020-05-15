@@ -16,6 +16,8 @@ public class Player : MonoBehaviour
 {
     public float moveSpeed = 100f;
     public string loadNextSceneName;
+    public string loadGameOverScene;
+
 
     private Vector3 mousePosition;
     private Rigidbody2D rb;
@@ -53,8 +55,7 @@ public class Player : MonoBehaviour
         Debug.Log("Touch!");
         movementDisable = true;
         rb.velocity = Vector2.zero;
-        
-        // Add popups
+        SceneManager.LoadScene(loadGameOverScene);
     }
 
     void onLevelPass(){

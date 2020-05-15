@@ -285,6 +285,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   moveSpeed: 100
   loadNextSceneName: 
+  loadGameOverScene: GameOver
 --- !u!212 &561065350
 SpriteRenderer:
   m_ObjectHideFlags: 0

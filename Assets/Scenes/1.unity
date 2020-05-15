@@ -543,6 +543,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   moveSpeed: 100
   loadNextSceneName: 2
+  loadGameOverScene: GameOver
 --- !u!60 &936737055
 PolygonCollider2D:
   m_ObjectHideFlags: 0
