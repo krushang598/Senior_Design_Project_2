@@ -12,6 +12,10 @@ public class Level : MonoBehaviour
         SceneManager.LoadScene("Start Menu");
     }
 
+    public void LoadIns(){
+        SceneManager.LoadScene("Instruction");
+    }
+    
     public void LoadGame()
     {
         SceneManager.LoadScene("1");
