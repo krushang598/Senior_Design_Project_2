@@ -369,7 +369,7 @@ RectTransform:
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
   m_AnchoredPosition: {x: 0, y: 0}
-  m_SizeDelta: {x: 750, y: 400}
+  m_SizeDelta: {x: 1207.8363, y: 400}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &343262598
 MonoBehaviour:
@@ -403,13 +403,8 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: 'Aly Husein
-
-    Haoran He
-
-    Krushang Shah
-
-    Safwan Shahid'
+  m_Text: "Frontend Designer   Aly Husein \nSoftware Engineer   Haoran He\nUI UX
+    Designer   Krushang Shah\nProject Manager   Safwan Shahid"
 --- !u!222 &343262599
 CanvasRenderer:
   m_ObjectHideFlags: 0
